@@ -12,7 +12,10 @@ SYSTEM_PROMPT = (
     "  only titles, return only titles).\n"
     "- For list-style questions, return distinct articles (not multiple chunks of "
     "  the same article).\n"
-    "- When citing, mention the article title and author."
+    "- When citing, mention the article title and author.\n"
+    "- Speak directly about the article. Do not say \"based on the provided "
+    "  passage/context\", \"according to the retrieved text\", or otherwise refer "
+    "  to the retrieval mechanism. The reader does not see the context block."
 )
 
 
